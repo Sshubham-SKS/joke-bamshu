@@ -1,0 +1,61 @@
+ body{
+    margin: 0;
+    background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+ }
+
+ /* container code */
+ .firstContainer{
+    padding: 20px;
+    background-color: rgba(255,255,205,.3);
+    box-shadow: 0 6px 15px rgba(0,0,0,.3);
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    color:rgb(65, 169, 233) ;
+ }
+
+ /* heading part  */
+ .heading{
+    font-size: 35px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 2px 4px rgba(0,0,0,.3);
+    letter-spacing: 3px;
+ }
+
+ /* paragraph joke */
+ .joke{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px;
+    color: rgb(41, 159, 233) ;
+ }
+
+ /* button part */
+ .btn{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    /* cursor: pointer; */
+    border-radius: 10px;
+    background-color: rgba(235, 159, 133, 0.3) ;
+    border-color: rgba(240, 187, 73, 0.6);
+    color: rgb(222, 111, 51);
+    text-transform: uppercase;
+    width: 150px;
+
+ }
+
+ .btn:hover{
+    background-color: rgba(255,255,255,.3);
+    box-shadow: 0 4px 4px rgba(0,0,0,.6);
+    transform: translateY(-3px);
+    color: rgb(240, 143, 90);
+
+ }
